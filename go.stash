@@ -1,0 +1,30 @@
+# Go
+
+
+# Hello World
+
+<cb>package main
+import "fmt"
+
+func main() {
+	fmt.Println("<v>Hello World<>")
+}<>
+
+
+# Install
+
+
+### MacOS - Install with Homebrew
+
+<cb>brew install go<>
+
+
+
+# Command Line
+
+
+### Program Run
+
+<cb>go run <v>program<>.go<>
+
+
