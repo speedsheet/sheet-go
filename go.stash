@@ -1,6 +1,20 @@
 # Go
 
 
+# Online Documents
+@
+@ online-docs-only, docs-only
+
+
+### Official Site
+<l>https://go.dev/<>
+
+
+### Official Documents
+<l>https://go.dev/doc/<>
+
+
+
 # Hello World
 
 <cb>package main
@@ -9,6 +23,14 @@ import "fmt"
 func main() {
 	fmt.Println("<v>Hello World<>")
 }<>
+
+
+
+# Fundamentals
+@
+@ fundamentals-only
+
+
 
 
 # Install
@@ -21,9 +43,25 @@ func main() {
 
 
 # Command Line
+@
+@ cli, commands-only
 
 
-### Program Run
+### Go - Version
+
+<cb>go version<>
+
+
+
+### Program - Build
+
+<cb>go build <v>program<>.go<>
+@
+@ compile
+
+
+
+### Program - Run
 
 <cb>go run <v>program<>.go<>
 
